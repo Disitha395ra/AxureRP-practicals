@@ -1,0 +1,35 @@
+Explaining Each Case in the Interaction
+🔹 Case 1: If Flag == "Replace"
+
+If value of Flag equals "Replace"
+   Set Text (Text Field) to "[[This.text]]"
+   Set Variable Value Flag to "Join"
+
+👉 What happens here?
+If Flag == "Replace", it means the display should be cleared before showing a new value.
+The current button's text ([[This.text]]) is set as the new display value (replacing the old value).
+Then, the Flag is set to "Join", meaning that the next input should be appended instead of replacing.
+
+🛠 Example
+
+Display shows "0", and Flag = "Replace".
+You press 7:
+The display is updated to "7" (replacing "0").
+Flag is now "Join".
+
+🔹 Case 2: If Flag == "Join"
+
+plaintext
+CopyEdit
+Else If value of Flag equals "Join"
+   Set Text (Text Field) to "[[Target.text]][[This.text]]"
+
+👉 What happens here?
+If Flag == "Join", it means that the new button press should append the number instead of replacing.
+The existing display value ([[Target.text]]) is combined with the new button value ([[This.text]]).
+🛠 Example
+
+Display shows "7", and Flag = "Join".
+You press 5:
+The display updates to "75" (appending 5 instead of replacing).
+Flag remains "Join".
