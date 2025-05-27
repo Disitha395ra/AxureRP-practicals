@@ -1,0 +1,22 @@
+1. create two buttons using rectangle (monthly, yearly)
+2. add the selected style effect for the monthly button (fill color - blue, font color - white) and change the border width to 0
+3. copy and paste the style to other button
+4. set the first button to default selected one
+5. set the selection group for the two buttons as 1
+6. add the dynamic panel 
+7. inside the panel (in state one) create sections
+8. set the panel to scroll vertical  
+9. in state two create another section
+10. rename the states as 
+	1. monthly
+	2. yearly
+
+Interactions
+
+1. set the click interaction to the first button
+
+	1. set selected/checked - select the first button
+	2. set panel state - monthly
+
+2. copy and paste the action to next button and do the necessary change
+3. finally add the hotspot to the bottom of the area (to leave the whitespace at the end when scroll the content) 
