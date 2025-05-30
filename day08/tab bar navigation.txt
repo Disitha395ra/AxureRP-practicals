@@ -1,0 +1,24 @@
+tab bar navigation
+
+1. add icons - label - cover with hotspot
+2. add inline frame
+3. right click and select toggle border
+4. set the toggle border width little bigger
+5. create three sub pages (home, message, me) to the main page
+6. now create the home page and add the heading (home); add box with some content; 
+7. now create the message page and add avatar and thin rectangles for message bar 
+
+interactions
+
+1. home icon - add selected style effect as fill color - yellow
+2. repeat same effect to all icons
+3. home label - add selected style effect as fill color - yellow
+4. repeat same effect to all labels
+
+5. duplicate the hotspot twice and combine them with the icons and labels from each tab 
+6. selection group (named as Tab)
+7. add interaction - home tab - click/tap - set selected/checked - target (this) -
+   add next action - open link in in frame - target (inline frame) - link to (home)
+8. Repeat the above interaction to other icons
+9. double click the inline frame - link it to the home page
+10. to avoid the scroll problem in each page - add hotspot in the bottom of each  references pages so that the content is not covered  
